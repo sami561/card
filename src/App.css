@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
+.card{
+  padding-top: 45px;
+  padding-bottom: 40px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.cardContent{
+  background: #1A1B21;
+width: 317px;
+margin-top: -19px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+border-radius: 0px 0px 10px 10px;
+}
+.container{
+  background: #23252C;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  display: flex;
+  width: 550px; 
 
-.App-link {
-  color: #61dafb;
 }
+.img{
+  width: 317px;
+  flex-shrink: 0; 
+  border-radius: 10px 10px 0px 0px;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-content:center ;
+}
+.name{
+  padding-top: 20px ;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.job{
+  color: #F3BF99;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.website{color: #F5F5F5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */}
+.button_block{
+  padding-inline: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px ;
+}
+  .emailButton{
+    display: flex;
+width: 115px;
+padding: 9px 13px 9px 11px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+    border-radius: 6px;
+border: 1px solid var(--gray-300, #D1D5DB);
+background: var(--white, #FFF);
+
+/* shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  }
+  .linkedinButton{
+    border-radius: 6px;
+background: #5093E2;
+border: 1px solid var(--blue-300, #5093E2);
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+display: flex;
+width: 115px;
+padding: 9px 13px 9px 11px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+  }
+  .title{
+    color: #F5F5F5;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+margin-bottom: 0px !important;
+  }
+  .subtitle{
+    color: #DCDCDC;
+font-family: Inter;
+font-size: 10.24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15.36px */
+  }
+  .aboutSection{
+    padding-inline: 35px;
+
+  }
+  .InterestSection{
+    padding-inline: 35px;
+    padding-bottom: 20px;
+  }
+  .socialMedia{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 70px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+    background: #161619;
+    padding-top: 20px;
+  }
